@@ -1,8 +1,8 @@
 #ifndef __VBATT_H
 #define __VBATT_H
 
-#include <stdint.h>
 #include <libopencm3/stm32/adc.h>
+#include <stdint.h>
 
 /* Battery limit in millivolts (2 cells) */
 #define BATTERY_LIMIT_MV 6400
